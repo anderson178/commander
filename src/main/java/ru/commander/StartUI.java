@@ -18,6 +18,7 @@ public class StartUI {
     }
 
     public void init() {
+//        init();
         MenuCommander menu = new MenuCommander(this.input, this.cmd);
         menu.dataLoad();
         menu.fillCommands(this);
