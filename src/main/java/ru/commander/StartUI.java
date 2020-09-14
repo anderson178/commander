@@ -25,6 +25,7 @@ public class StartUI {
             String key = (input.ask("select command: ", menu.getCommands()));
             menu.select(key);
         } while (this.work);
+//        dfffdfdf
     }
 
     public static void main(String[] args) {
